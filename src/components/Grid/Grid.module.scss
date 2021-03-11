@@ -1,0 +1,15 @@
+.Grid {
+  &_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &_item {
+    display: block;
+  }
+
+  @for $i from 1 to 13 {
+    &_cols_#{$i} {
+      flex-basis: $i/12 * 100%;
+    }
+  }
+}
