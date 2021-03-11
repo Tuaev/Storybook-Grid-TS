@@ -7,19 +7,19 @@ function App() {
     <div className="App" style={{ margin: '16px', position: 'relative' }}>
       <GridRuler spacing="sm"></GridRuler>
       <Grid container spacing="sm">
-        <Grid item cols={6}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Box>Box 1</Box>
         </Grid>
-        <Grid item cols={6}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Box>Box 2</Box>
         </Grid>
-        <Grid item cols={6}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Box>Box 3</Box>
         </Grid>
-        <Grid item cols={6}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Box>Box 4</Box>
         </Grid>
-        <Grid item cols={6}>
+        <Grid item xs={12} sm={6} md={4} lg={3}>
           <Box>Box 5</Box>
         </Grid>
       </Grid>
