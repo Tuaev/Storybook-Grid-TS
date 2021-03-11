@@ -3,8 +3,8 @@ import Grid from './components/Grid/Grid';
 
 function App() {
   return (
-    <div className="App">
-      <Grid container>
+    <div className="App" style={{ margin: '16px' }}>
+      <Grid container spacing="sm">
         <Grid item cols={6}>
           <Box>Box 1</Box>
         </Grid>
